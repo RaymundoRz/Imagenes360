@@ -1,0 +1,55 @@
+{
+  "tests": [
+    {
+      "test": "Backend Health Check",
+      "status": "❌ FAILED",
+      "error": ""
+    },
+    {
+      "test": "Config Validation",
+      "status": "✅ PASSED",
+      "details": {
+        "interior_tech": "pano2vr",
+        "exterior_resolution": {
+          "width": 5200,
+          "height": 1900
+        }
+      }
+    },
+    {
+      "test": "Interior Extraction",
+      "status": "✅ PASSED",
+      "details": {
+        "extraction_id": "d90b6340-efa0-48b0-aca5-93690a6c6d30",
+        "total_tiles": 0
+      }
+    },
+    {
+      "test": "Exterior Extraction",
+      "status": "✅ PASSED",
+      "details": {
+        "extraction_id": "02cf065f-092c-46db-b398-7d188f161941",
+        "total_tiles": 0
+      }
+    },
+    {
+      "test": "File System Check",
+      "status": "✅ PASSED",
+      "details": {
+        "interior_exists": true,
+        "exterior_exists": true,
+        "interior_tiles": 48,
+        "exterior_tiles": 128
+      }
+    },
+    {
+      "test": "Frontend Accessibility",
+      "status": "❌ FAILED",
+      "error": ""
+    }
+  ],
+  "summary": {
+    "passed": 4,
+    "failed": 2
+  }
+}
