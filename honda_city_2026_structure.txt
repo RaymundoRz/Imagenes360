@@ -1,0 +1,2243 @@
+﻿
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:14 p. m.                ViewType.EXTERIOR                            
+d-----     23/09/2025  05:21 p. m.                ViewType.INTERIOR                            
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                assets                                       
+d-----     23/09/2025  11:33 a. m.                exterior_level_2                             
+d-----     23/09/2025  07:00 p. m.                tiles                                        
+-a----     23/09/2025  07:00 p. m.           1976 config.xml                                   
+-a----     23/09/2025  07:01 p. m.           2206 viewer.html                                  
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\assets
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  07:01 p. m.          46841 object2vr_player.js                          
+-a----     23/09/2025  07:01 p. m.          45093 skin.js                                      
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\exterior_level_2
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  11:33 a. m.                column_00                                    
+d-----     23/09/2025  11:33 a. m.                column_01                                    
+d-----     23/09/2025  11:33 a. m.                column_02                                    
+d-----     23/09/2025  11:33 a. m.                column_03                                    
+d-----     23/09/2025  11:33 a. m.                column_04                                    
+d-----     23/09/2025  11:33 a. m.                column_05                                    
+d-----     23/09/2025  11:33 a. m.                column_06                                    
+d-----     23/09/2025  11:33 a. m.                column_07                                    
+d-----     23/09/2025  11:33 a. m.                column_08                                    
+d-----     23/09/2025  11:33 a. m.                column_09                                    
+d-----     23/09/2025  11:33 a. m.                column_10                                    
+d-----     23/09/2025  11:33 a. m.                column_11                                    
+d-----     23/09/2025  11:33 a. m.                column_12                                    
+d-----     23/09/2025  11:33 a. m.                column_13                                    
+d-----     23/09/2025  11:33 a. m.                column_14                                    
+d-----     23/09/2025  11:33 a. m.                column_15                                    
+d-----     23/09/2025  11:33 a. m.                column_16                                    
+d-----     23/09/2025  11:33 a. m.                column_17                                    
+d-----     23/09/2025  11:33 a. m.                column_18                                    
+d-----     23/09/2025  11:33 a. m.                column_19                                    
+d-----     23/09/2025  11:33 a. m.                column_20                                    
+d-----     23/09/2025  11:33 a. m.                column_21                                    
+d-----     23/09/2025  11:33 a. m.                column_22                                    
+d-----     23/09/2025  11:33 a. m.                column_23                                    
+d-----     23/09/2025  11:33 a. m.                column_24                                    
+d-----     23/09/2025  11:33 a. m.                column_25                                    
+d-----     23/09/2025  11:33 a. m.                column_26                                    
+d-----     23/09/2025  11:33 a. m.                column_27                                    
+d-----     23/09/2025  11:33 a. m.                column_28                                    
+d-----     23/09/2025  11:33 a. m.                column_29                                    
+d-----     23/09/2025  11:33 a. m.                column_30                                    
+d-----     23/09/2025  11:33 a. m.                column_31                                    
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\exterior_level_2\column_00
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  11:33 a. m.          19702 tile_0_0.jpg                                 
+-a----     23/09/2025  11:33 a. m.           4682 tile_0_1.jpg                                 
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\exterior_level_2\column_01
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  11:33 a. m.          21212 tile_0_0.jpg                                 
+-a----     23/09/2025  11:33 a. m.           4682 tile_0_1.jpg                                 
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\exterior_level_2\column_02
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  11:33 a. m.          23005 tile_0_0.jpg                                 
+-a----     23/09/2025  11:33 a. m.           4682 tile_0_1.jpg                                 
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\exterior_level_2\column_03
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  11:33 a. m.          25291 tile_0_0.jpg                                 
+-a----     23/09/2025  11:33 a. m.           4695 tile_0_1.jpg                                 
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\exterior_level_2\column_04
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  11:33 a. m.          25013 tile_0_0.jpg                                 
+-a----     23/09/2025  11:33 a. m.           5669 tile_0_1.jpg                                 
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\exterior_level_2\column_05
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  11:33 a. m.          25333 tile_0_0.jpg                                 
+-a----     23/09/2025  11:33 a. m.           6450 tile_0_1.jpg                                 
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\exterior_level_2\column_06
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  11:33 a. m.          24854 tile_0_0.jpg                                 
+-a----     23/09/2025  11:33 a. m.           7196 tile_0_1.jpg                                 
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\exterior_level_2\column_07
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  11:33 a. m.          24981 tile_0_0.jpg                                 
+-a----     23/09/2025  11:33 a. m.           7607 tile_0_1.jpg                                 
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\exterior_level_2\column_08
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  11:33 a. m.          25099 tile_0_0.jpg                                 
+-a----     23/09/2025  11:33 a. m.           7628 tile_0_1.jpg                                 
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\exterior_level_2\column_09
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  11:33 a. m.          25144 tile_0_0.jpg                                 
+-a----     23/09/2025  11:33 a. m.           7795 tile_0_1.jpg                                 
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\exterior_level_2\column_10
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  11:33 a. m.          25711 tile_0_0.jpg                                 
+-a----     23/09/2025  11:33 a. m.           8342 tile_0_1.jpg                                 
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\exterior_level_2\column_11
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  11:33 a. m.          25485 tile_0_0.jpg                                 
+-a----     23/09/2025  11:33 a. m.           8395 tile_0_1.jpg                                 
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\exterior_level_2\column_12
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  11:33 a. m.          25142 tile_0_0.jpg                                 
+-a----     23/09/2025  11:33 a. m.           7676 tile_0_1.jpg                                 
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\exterior_level_2\column_13
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  11:33 a. m.          24688 tile_0_0.jpg                                 
+-a----     23/09/2025  11:33 a. m.           6692 tile_0_1.jpg                                 
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\exterior_level_2\column_14
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  11:33 a. m.          24794 tile_0_0.jpg                                 
+-a----     23/09/2025  11:33 a. m.           5327 tile_0_1.jpg                                 
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\exterior_level_2\column_15
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  11:33 a. m.          23518 tile_0_0.jpg                                 
+-a----     23/09/2025  11:33 a. m.           4683 tile_0_1.jpg                                 
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\exterior_level_2\column_16
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  11:33 a. m.          20640 tile_0_0.jpg                                 
+-a----     23/09/2025  11:33 a. m.           4682 tile_0_1.jpg                                 
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\exterior_level_2\column_17
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  11:33 a. m.          22815 tile_0_0.jpg                                 
+-a----     23/09/2025  11:33 a. m.           4682 tile_0_1.jpg                                 
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\exterior_level_2\column_18
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  11:33 a. m.          24497 tile_0_0.jpg                                 
+-a----     23/09/2025  11:33 a. m.           4682 tile_0_1.jpg                                 
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\exterior_level_2\column_19
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  11:33 a. m.          25914 tile_0_0.jpg                                 
+-a----     23/09/2025  11:33 a. m.           4690 tile_0_1.jpg                                 
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\exterior_level_2\column_20
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  11:33 a. m.          26694 tile_0_0.jpg                                 
+-a----     23/09/2025  11:33 a. m.           5332 tile_0_1.jpg                                 
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\exterior_level_2\column_21
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  11:33 a. m.          26652 tile_0_0.jpg                                 
+-a----     23/09/2025  11:33 a. m.           6234 tile_0_1.jpg                                 
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\exterior_level_2\column_22
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  11:33 a. m.          26518 tile_0_0.jpg                                 
+-a----     23/09/2025  11:33 a. m.           6818 tile_0_1.jpg                                 
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\exterior_level_2\column_23
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  11:33 a. m.          25616 tile_0_0.jpg                                 
+-a----     23/09/2025  11:33 a. m.           7367 tile_0_1.jpg                                 
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\exterior_level_2\column_24
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  11:33 a. m.          24425 tile_0_0.jpg                                 
+-a----     23/09/2025  11:33 a. m.           7460 tile_0_1.jpg                                 
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\exterior_level_2\column_25
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  11:33 a. m.          23990 tile_0_0.jpg                                 
+-a----     23/09/2025  11:33 a. m.           7631 tile_0_1.jpg                                 
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\exterior_level_2\column_26
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  11:33 a. m.          24996 tile_0_0.jpg                                 
+-a----     23/09/2025  11:33 a. m.           7994 tile_0_1.jpg                                 
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\exterior_level_2\column_27
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  11:33 a. m.          24647 tile_0_0.jpg                                 
+-a----     23/09/2025  11:33 a. m.           7747 tile_0_1.jpg                                 
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\exterior_level_2\column_28
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  11:33 a. m.          23655 tile_0_0.jpg                                 
+-a----     23/09/2025  11:33 a. m.           7090 tile_0_1.jpg                                 
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\exterior_level_2\column_29
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  11:33 a. m.          23082 tile_0_0.jpg                                 
+-a----     23/09/2025  11:33 a. m.           6555 tile_0_1.jpg                                 
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\exterior_level_2\column_30
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  11:33 a. m.          22538 tile_0_0.jpg                                 
+-a----     23/09/2025  11:33 a. m.           5550 tile_0_1.jpg                                 
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\exterior_level_2\column_31
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  11:33 a. m.          21286 tile_0_0.jpg                                 
+-a----     23/09/2025  11:33 a. m.           4685 tile_0_1.jpg                                 
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                node1                                        
+-a----     23/09/2025  07:00 p. m.          19702 c0_l2_0_0.jpg                                
+-a----     23/09/2025  07:00 p. m.           4682 c0_l2_0_1.jpg                                
+-a----     23/09/2025  07:00 p. m.          25711 c10_l2_0_0.jpg                               
+-a----     23/09/2025  07:00 p. m.           8342 c10_l2_0_1.jpg                               
+-a----     23/09/2025  07:00 p. m.          25485 c11_l2_0_0.jpg                               
+-a----     23/09/2025  07:00 p. m.           8395 c11_l2_0_1.jpg                               
+-a----     23/09/2025  07:00 p. m.          25142 c12_l2_0_0.jpg                               
+-a----     23/09/2025  07:00 p. m.           7676 c12_l2_0_1.jpg                               
+-a----     23/09/2025  07:00 p. m.          24688 c13_l2_0_0.jpg                               
+-a----     23/09/2025  07:00 p. m.           6692 c13_l2_0_1.jpg                               
+-a----     23/09/2025  07:00 p. m.          24794 c14_l2_0_0.jpg                               
+-a----     23/09/2025  07:00 p. m.           5327 c14_l2_0_1.jpg                               
+-a----     23/09/2025  07:00 p. m.          23518 c15_l2_0_0.jpg                               
+-a----     23/09/2025  07:00 p. m.           4683 c15_l2_0_1.jpg                               
+-a----     23/09/2025  07:00 p. m.          20640 c16_l2_0_0.jpg                               
+-a----     23/09/2025  07:00 p. m.           4682 c16_l2_0_1.jpg                               
+-a----     23/09/2025  07:00 p. m.          22815 c17_l2_0_0.jpg                               
+-a----     23/09/2025  07:00 p. m.           4682 c17_l2_0_1.jpg                               
+-a----     23/09/2025  07:00 p. m.          24497 c18_l2_0_0.jpg                               
+-a----     23/09/2025  07:00 p. m.           4682 c18_l2_0_1.jpg                               
+-a----     23/09/2025  07:00 p. m.          25914 c19_l2_0_0.jpg                               
+-a----     23/09/2025  07:00 p. m.           4690 c19_l2_0_1.jpg                               
+-a----     23/09/2025  07:00 p. m.          21212 c1_l2_0_0.jpg                                
+-a----     23/09/2025  07:00 p. m.           4682 c1_l2_0_1.jpg                                
+-a----     23/09/2025  07:00 p. m.          26694 c20_l2_0_0.jpg                               
+-a----     23/09/2025  07:00 p. m.           5332 c20_l2_0_1.jpg                               
+-a----     23/09/2025  07:00 p. m.          26652 c21_l2_0_0.jpg                               
+-a----     23/09/2025  07:00 p. m.           6234 c21_l2_0_1.jpg                               
+-a----     23/09/2025  07:00 p. m.          26518 c22_l2_0_0.jpg                               
+-a----     23/09/2025  07:00 p. m.           6818 c22_l2_0_1.jpg                               
+-a----     23/09/2025  07:00 p. m.          25616 c23_l2_0_0.jpg                               
+-a----     23/09/2025  07:00 p. m.           7367 c23_l2_0_1.jpg                               
+-a----     23/09/2025  07:00 p. m.          24425 c24_l2_0_0.jpg                               
+-a----     23/09/2025  07:00 p. m.           7460 c24_l2_0_1.jpg                               
+-a----     23/09/2025  07:00 p. m.          23990 c25_l2_0_0.jpg                               
+-a----     23/09/2025  07:00 p. m.           7631 c25_l2_0_1.jpg                               
+-a----     23/09/2025  07:00 p. m.          24996 c26_l2_0_0.jpg                               
+-a----     23/09/2025  07:00 p. m.           7994 c26_l2_0_1.jpg                               
+-a----     23/09/2025  07:00 p. m.          24647 c27_l2_0_0.jpg                               
+-a----     23/09/2025  07:00 p. m.           7747 c27_l2_0_1.jpg                               
+-a----     23/09/2025  07:00 p. m.          23655 c28_l2_0_0.jpg                               
+-a----     23/09/2025  07:00 p. m.           7090 c28_l2_0_1.jpg                               
+-a----     23/09/2025  07:00 p. m.          23082 c29_l2_0_0.jpg                               
+-a----     23/09/2025  07:00 p. m.           6555 c29_l2_0_1.jpg                               
+-a----     23/09/2025  07:00 p. m.          23005 c2_l2_0_0.jpg                                
+-a----     23/09/2025  07:00 p. m.           4682 c2_l2_0_1.jpg                                
+-a----     23/09/2025  07:00 p. m.          22538 c30_l2_0_0.jpg                               
+-a----     23/09/2025  07:00 p. m.           5550 c30_l2_0_1.jpg                               
+-a----     23/09/2025  07:00 p. m.          21286 c31_l2_0_0.jpg                               
+-a----     23/09/2025  07:00 p. m.           4685 c31_l2_0_1.jpg                               
+-a----     23/09/2025  07:00 p. m.          25291 c3_l2_0_0.jpg                                
+-a----     23/09/2025  07:00 p. m.           4695 c3_l2_0_1.jpg                                
+-a----     23/09/2025  07:00 p. m.          25013 c4_l2_0_0.jpg                                
+-a----     23/09/2025  07:00 p. m.           5669 c4_l2_0_1.jpg                                
+-a----     23/09/2025  07:00 p. m.          25333 c5_l2_0_0.jpg                                
+-a----     23/09/2025  07:00 p. m.           6450 c5_l2_0_1.jpg                                
+-a----     23/09/2025  07:00 p. m.          24854 c6_l2_0_0.jpg                                
+-a----     23/09/2025  07:00 p. m.           7196 c6_l2_0_1.jpg                                
+-a----     23/09/2025  07:00 p. m.          24981 c7_l2_0_0.jpg                                
+-a----     23/09/2025  07:00 p. m.           7607 c7_l2_0_1.jpg                                
+-a----     23/09/2025  07:00 p. m.          25099 c8_l2_0_0.jpg                                
+-a----     23/09/2025  07:00 p. m.           7628 c8_l2_0_1.jpg                                
+-a----     23/09/2025  07:00 p. m.          25144 c9_l2_0_0.jpg                                
+-a----     23/09/2025  07:00 p. m.           7795 c9_l2_0_1.jpg                                
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                cf_0                                         
+d-----     23/09/2025  06:06 p. m.                cf_1                                         
+d-----     23/09/2025  06:06 p. m.                cf_10                                        
+d-----     23/09/2025  06:06 p. m.                cf_11                                        
+d-----     23/09/2025  06:06 p. m.                cf_12                                        
+d-----     23/09/2025  06:06 p. m.                cf_13                                        
+d-----     23/09/2025  06:06 p. m.                cf_14                                        
+d-----     23/09/2025  06:06 p. m.                cf_15                                        
+d-----     23/09/2025  06:06 p. m.                cf_16                                        
+d-----     23/09/2025  06:06 p. m.                cf_17                                        
+d-----     23/09/2025  06:06 p. m.                cf_18                                        
+d-----     23/09/2025  06:06 p. m.                cf_19                                        
+d-----     23/09/2025  06:06 p. m.                cf_2                                         
+d-----     23/09/2025  06:06 p. m.                cf_20                                        
+d-----     23/09/2025  06:06 p. m.                cf_21                                        
+d-----     23/09/2025  06:06 p. m.                cf_22                                        
+d-----     23/09/2025  06:06 p. m.                cf_23                                        
+d-----     23/09/2025  06:06 p. m.                cf_24                                        
+d-----     23/09/2025  06:06 p. m.                cf_25                                        
+d-----     23/09/2025  06:06 p. m.                cf_26                                        
+d-----     23/09/2025  06:06 p. m.                cf_27                                        
+d-----     23/09/2025  06:06 p. m.                cf_28                                        
+d-----     23/09/2025  06:06 p. m.                cf_29                                        
+d-----     23/09/2025  06:06 p. m.                cf_3                                         
+d-----     23/09/2025  06:06 p. m.                cf_30                                        
+d-----     23/09/2025  06:06 p. m.                cf_31                                        
+d-----     23/09/2025  06:06 p. m.                cf_4                                         
+d-----     23/09/2025  06:06 p. m.                cf_5                                         
+d-----     23/09/2025  06:06 p. m.                cf_6                                         
+d-----     23/09/2025  06:06 p. m.                cf_7                                         
+d-----     23/09/2025  06:06 p. m.                cf_8                                         
+d-----     23/09/2025  06:06 p. m.                cf_9                                         
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                l_2                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_0\l_2
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                c_0                                          
+d-----     23/09/2025  06:06 p. m.                c_1                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_0\l_2\c_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.          19702 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_0\l_2\c_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.           4682 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                l_2                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_1\l_2
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                c_0                                          
+d-----     23/09/2025  06:06 p. m.                c_1                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_1\l_2\c_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.          21212 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_1\l_2\c_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.           4682 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_10
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                l_2                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_10\l_2
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                c_0                                          
+d-----     23/09/2025  06:06 p. m.                c_1                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_10\l_2\c_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.          25711 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_10\l_2\c_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.           8342 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_11
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                l_2                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_11\l_2
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                c_0                                          
+d-----     23/09/2025  06:06 p. m.                c_1                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_11\l_2\c_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.          25485 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_11\l_2\c_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.           8395 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_12
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                l_2                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_12\l_2
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                c_0                                          
+d-----     23/09/2025  06:06 p. m.                c_1                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_12\l_2\c_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.          25142 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_12\l_2\c_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.           7676 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_13
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                l_2                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_13\l_2
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                c_0                                          
+d-----     23/09/2025  06:06 p. m.                c_1                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_13\l_2\c_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.          24688 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_13\l_2\c_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.           6692 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_14
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                l_2                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_14\l_2
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                c_0                                          
+d-----     23/09/2025  06:06 p. m.                c_1                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_14\l_2\c_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.          24794 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_14\l_2\c_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.           5327 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_15
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                l_2                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_15\l_2
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                c_0                                          
+d-----     23/09/2025  06:06 p. m.                c_1                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_15\l_2\c_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.          23518 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_15\l_2\c_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.           4683 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_16
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                l_2                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_16\l_2
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                c_0                                          
+d-----     23/09/2025  06:06 p. m.                c_1                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_16\l_2\c_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.          20640 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_16\l_2\c_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.           4682 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_17
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                l_2                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_17\l_2
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                c_0                                          
+d-----     23/09/2025  06:06 p. m.                c_1                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_17\l_2\c_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.          22815 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_17\l_2\c_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.           4682 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_18
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                l_2                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_18\l_2
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                c_0                                          
+d-----     23/09/2025  06:06 p. m.                c_1                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_18\l_2\c_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.          24497 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_18\l_2\c_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.           4682 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_19
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                l_2                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_19\l_2
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                c_0                                          
+d-----     23/09/2025  06:06 p. m.                c_1                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_19\l_2\c_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.          25914 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_19\l_2\c_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.           4690 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_2
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                l_2                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_2\l_2
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                c_0                                          
+d-----     23/09/2025  06:06 p. m.                c_1                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_2\l_2\c_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.          23005 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_2\l_2\c_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.           4682 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_20
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                l_2                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_20\l_2
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                c_0                                          
+d-----     23/09/2025  06:06 p. m.                c_1                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_20\l_2\c_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.          26694 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_20\l_2\c_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.           5332 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_21
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                l_2                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_21\l_2
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                c_0                                          
+d-----     23/09/2025  06:06 p. m.                c_1                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_21\l_2\c_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.          26652 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_21\l_2\c_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.           6234 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_22
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                l_2                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_22\l_2
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                c_0                                          
+d-----     23/09/2025  06:06 p. m.                c_1                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_22\l_2\c_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.          26518 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_22\l_2\c_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.           6818 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_23
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                l_2                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_23\l_2
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                c_0                                          
+d-----     23/09/2025  06:06 p. m.                c_1                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_23\l_2\c_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.          25616 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_23\l_2\c_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.           7367 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_24
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                l_2                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_24\l_2
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                c_0                                          
+d-----     23/09/2025  06:06 p. m.                c_1                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_24\l_2\c_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.          24425 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_24\l_2\c_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.           7460 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_25
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                l_2                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_25\l_2
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                c_0                                          
+d-----     23/09/2025  06:06 p. m.                c_1                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_25\l_2\c_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.          23990 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_25\l_2\c_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.           7631 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_26
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                l_2                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_26\l_2
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                c_0                                          
+d-----     23/09/2025  06:06 p. m.                c_1                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_26\l_2\c_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.          24996 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_26\l_2\c_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.           7994 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_27
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                l_2                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_27\l_2
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                c_0                                          
+d-----     23/09/2025  06:06 p. m.                c_1                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_27\l_2\c_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.          24647 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_27\l_2\c_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.           7747 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_28
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                l_2                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_28\l_2
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                c_0                                          
+d-----     23/09/2025  06:06 p. m.                c_1                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_28\l_2\c_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.          23655 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_28\l_2\c_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.           7090 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_29
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                l_2                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_29\l_2
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                c_0                                          
+d-----     23/09/2025  06:06 p. m.                c_1                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_29\l_2\c_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.          23082 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_29\l_2\c_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.           6555 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_3
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                l_2                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_3\l_2
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                c_0                                          
+d-----     23/09/2025  06:06 p. m.                c_1                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_3\l_2\c_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.          25291 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_3\l_2\c_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.           4695 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_30
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                l_2                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_30\l_2
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                c_0                                          
+d-----     23/09/2025  06:06 p. m.                c_1                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_30\l_2\c_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.          22538 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_30\l_2\c_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.           5550 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_31
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                l_2                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_31\l_2
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                c_0                                          
+d-----     23/09/2025  06:06 p. m.                c_1                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_31\l_2\c_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.          21286 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_31\l_2\c_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.           4685 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_4
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                l_2                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_4\l_2
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                c_0                                          
+d-----     23/09/2025  06:06 p. m.                c_1                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_4\l_2\c_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.          25013 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_4\l_2\c_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.           5669 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_5
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                l_2                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_5\l_2
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                c_0                                          
+d-----     23/09/2025  06:06 p. m.                c_1                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_5\l_2\c_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.          25333 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_5\l_2\c_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.           6450 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_6
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                l_2                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_6\l_2
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                c_0                                          
+d-----     23/09/2025  06:06 p. m.                c_1                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_6\l_2\c_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.          24854 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_6\l_2\c_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.           7196 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_7
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                l_2                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_7\l_2
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                c_0                                          
+d-----     23/09/2025  06:06 p. m.                c_1                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_7\l_2\c_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.          24981 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_7\l_2\c_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.           7607 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_8
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                l_2                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_8\l_2
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                c_0                                          
+d-----     23/09/2025  06:06 p. m.                c_1                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_8\l_2\c_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.          25099 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_8\l_2\c_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.           7628 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_9
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                l_2                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_9\l_2
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  06:06 p. m.                c_0                                          
+d-----     23/09/2025  06:06 p. m.                c_1                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_9\l_2\c_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.          25144 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.EXTERIOR\tiles\node1\cf_9\l_2\c_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:32 p. m.           7795 tile_0.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  05:20 p. m.                assets                                       
+d-----     23/09/2025  03:14 p. m.                interior_level_2                             
+d-----     23/09/2025  05:18 p. m.                tiles                                        
+-a----     23/09/2025  06:09 p. m.           2207 config.xml                                   
+-a----     23/09/2025  06:09 p. m.           2202 viewer.html                                  
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\assets
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:09 p. m.         238640 pano2vr_player.js                            
+-a----     23/09/2025  06:09 p. m.         854945 skin.js                                      
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\interior_level_2
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  03:14 p. m.                face_0                                       
+d-----     23/09/2025  03:14 p. m.                face_1                                       
+d-----     23/09/2025  03:14 p. m.                face_2                                       
+d-----     23/09/2025  03:14 p. m.                face_3                                       
+d-----     23/09/2025  03:14 p. m.                face_4                                       
+d-----     23/09/2025  03:14 p. m.                face_5                                       
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\interior_level_2\face_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  03:14 p. m.         118742 tile_0_0.jpg                                 
+-a----     23/09/2025  03:14 p. m.         129853 tile_0_1.jpg                                 
+-a----     23/09/2025  03:14 p. m.          95915 tile_1_0.jpg                                 
+-a----     23/09/2025  03:14 p. m.          90148 tile_1_1.jpg                                 
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\interior_level_2\face_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  03:14 p. m.         123872 tile_0_0.jpg                                 
+-a----     23/09/2025  03:14 p. m.         121371 tile_0_1.jpg                                 
+-a----     23/09/2025  03:14 p. m.          67827 tile_1_0.jpg                                 
+-a----     23/09/2025  03:14 p. m.          93489 tile_1_1.jpg                                 
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\interior_level_2\face_2
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  03:14 p. m.         125625 tile_0_0.jpg                                 
+-a----     23/09/2025  03:14 p. m.         134788 tile_0_1.jpg                                 
+-a----     23/09/2025  03:14 p. m.         140877 tile_1_0.jpg                                 
+-a----     23/09/2025  03:14 p. m.         129197 tile_1_1.jpg                                 
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\interior_level_2\face_3
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  03:14 p. m.         116266 tile_0_0.jpg                                 
+-a----     23/09/2025  03:14 p. m.         122316 tile_0_1.jpg                                 
+-a----     23/09/2025  03:14 p. m.          70446 tile_1_0.jpg                                 
+-a----     23/09/2025  03:14 p. m.         132411 tile_1_1.jpg                                 
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\interior_level_2\face_4
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  03:14 p. m.         111097 tile_0_0.jpg                                 
+-a----     23/09/2025  03:14 p. m.         114826 tile_0_1.jpg                                 
+-a----     23/09/2025  03:14 p. m.         113379 tile_1_0.jpg                                 
+-a----     23/09/2025  03:14 p. m.         123506 tile_1_1.jpg                                 
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\interior_level_2\face_5
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  03:14 p. m.         185108 tile_0_0.jpg                                 
+-a----     23/09/2025  03:14 p. m.         174217 tile_0_1.jpg                                 
+-a----     23/09/2025  03:14 p. m.         166073 tile_1_0.jpg                                 
+-a----     23/09/2025  03:14 p. m.          84918 tile_1_1.jpg                                 
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\tiles
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  05:18 p. m.                node1                                        
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\tiles\node1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  05:31 p. m.                cf_0                                         
+d-----     23/09/2025  05:31 p. m.                cf_1                                         
+d-----     23/09/2025  05:31 p. m.                cf_2                                         
+d-----     23/09/2025  05:31 p. m.                cf_3                                         
+d-----     23/09/2025  05:31 p. m.                cf_4                                         
+d-----     23/09/2025  05:31 p. m.                cf_5                                         
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\tiles\node1\cf_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  05:31 p. m.                l_1                                          
+d-----     23/09/2025  05:18 p. m.                l_2                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\tiles\node1\cf_0\l_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  05:31 p. m.                c_0                                          
+d-----     23/09/2025  05:31 p. m.                c_1                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\tiles\node1\cf_0\l_1\c_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:09 p. m.         123930 tile_0.jpg                                   
+-a----     23/09/2025  06:09 p. m.         161666 tile_1.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\tiles\node1\cf_0\l_1\c_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:09 p. m.         111236 tile_0.jpg                                   
+-a----     23/09/2025  06:09 p. m.         109669 tile_1.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\tiles\node1\cf_0\l_2
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  05:18 p. m.                c_0                                          
+d-----     23/09/2025  05:18 p. m.                c_1                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\tiles\node1\cf_0\l_2\c_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  05:18 p. m.         118742 tile_0.jpg                                   
+-a----     23/09/2025  05:18 p. m.          95915 tile_1.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\tiles\node1\cf_0\l_2\c_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  05:18 p. m.         129853 tile_0.jpg                                   
+-a----     23/09/2025  05:18 p. m.          90148 tile_1.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\tiles\node1\cf_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  05:31 p. m.                l_1                                          
+d-----     23/09/2025  05:18 p. m.                l_2                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\tiles\node1\cf_1\l_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  05:31 p. m.                c_0                                          
+d-----     23/09/2025  05:31 p. m.                c_1                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\tiles\node1\cf_1\l_1\c_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:09 p. m.         114675 tile_0.jpg                                   
+-a----     23/09/2025  06:09 p. m.         118702 tile_1.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\tiles\node1\cf_1\l_1\c_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:09 p. m.          91889 tile_0.jpg                                   
+-a----     23/09/2025  06:09 p. m.          85253 tile_1.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\tiles\node1\cf_1\l_2
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  05:18 p. m.                c_0                                          
+d-----     23/09/2025  05:18 p. m.                c_1                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\tiles\node1\cf_1\l_2\c_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  05:18 p. m.         123872 tile_0.jpg                                   
+-a----     23/09/2025  05:18 p. m.          67827 tile_1.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\tiles\node1\cf_1\l_2\c_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  05:18 p. m.         121371 tile_0.jpg                                   
+-a----     23/09/2025  05:18 p. m.          93489 tile_1.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\tiles\node1\cf_2
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  05:31 p. m.                l_1                                          
+d-----     23/09/2025  05:18 p. m.                l_2                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\tiles\node1\cf_2\l_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  05:31 p. m.                c_0                                          
+d-----     23/09/2025  05:31 p. m.                c_1                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\tiles\node1\cf_2\l_1\c_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:09 p. m.         143771 tile_0.jpg                                   
+-a----     23/09/2025  06:09 p. m.         139202 tile_1.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\tiles\node1\cf_2\l_1\c_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:09 p. m.         118418 tile_0.jpg                                   
+-a----     23/09/2025  06:09 p. m.         114621 tile_1.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\tiles\node1\cf_2\l_2
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  05:18 p. m.                c_0                                          
+d-----     23/09/2025  05:18 p. m.                c_1                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\tiles\node1\cf_2\l_2\c_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  05:18 p. m.         125625 tile_0.jpg                                   
+-a----     23/09/2025  05:18 p. m.         140877 tile_1.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\tiles\node1\cf_2\l_2\c_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  05:18 p. m.         134788 tile_0.jpg                                   
+-a----     23/09/2025  05:18 p. m.         129197 tile_1.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\tiles\node1\cf_3
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  05:31 p. m.                l_1                                          
+d-----     23/09/2025  05:18 p. m.                l_2                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\tiles\node1\cf_3\l_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  05:31 p. m.                c_0                                          
+d-----     23/09/2025  05:31 p. m.                c_1                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\tiles\node1\cf_3\l_1\c_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:09 p. m.         120037 tile_0.jpg                                   
+-a----     23/09/2025  06:09 p. m.         114384 tile_1.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\tiles\node1\cf_3\l_1\c_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:09 p. m.          96294 tile_0.jpg                                   
+-a----     23/09/2025  06:09 p. m.          94095 tile_1.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\tiles\node1\cf_3\l_2
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  05:18 p. m.                c_0                                          
+d-----     23/09/2025  05:18 p. m.                c_1                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\tiles\node1\cf_3\l_2\c_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  05:18 p. m.         116266 tile_0.jpg                                   
+-a----     23/09/2025  05:18 p. m.          70446 tile_1.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\tiles\node1\cf_3\l_2\c_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  05:18 p. m.         122316 tile_0.jpg                                   
+-a----     23/09/2025  05:18 p. m.         132411 tile_1.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\tiles\node1\cf_4
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  05:31 p. m.                l_1                                          
+d-----     23/09/2025  05:18 p. m.                l_2                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\tiles\node1\cf_4\l_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  05:31 p. m.                c_0                                          
+d-----     23/09/2025  05:31 p. m.                c_1                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\tiles\node1\cf_4\l_1\c_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:09 p. m.         131640 tile_0.jpg                                   
+-a----     23/09/2025  06:09 p. m.         110362 tile_1.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\tiles\node1\cf_4\l_1\c_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:09 p. m.         108804 tile_0.jpg                                   
+-a----     23/09/2025  06:09 p. m.          91324 tile_1.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\tiles\node1\cf_4\l_2
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  05:18 p. m.                c_0                                          
+d-----     23/09/2025  05:18 p. m.                c_1                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\tiles\node1\cf_4\l_2\c_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  05:18 p. m.         111097 tile_0.jpg                                   
+-a----     23/09/2025  05:18 p. m.         113379 tile_1.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\tiles\node1\cf_4\l_2\c_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  05:18 p. m.         114826 tile_0.jpg                                   
+-a----     23/09/2025  05:18 p. m.         123506 tile_1.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\tiles\node1\cf_5
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  05:31 p. m.                l_1                                          
+d-----     23/09/2025  05:18 p. m.                l_2                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\tiles\node1\cf_5\l_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  05:31 p. m.                c_0                                          
+d-----     23/09/2025  05:31 p. m.                c_1                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\tiles\node1\cf_5\l_1\c_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:09 p. m.         158923 tile_0.jpg                                   
+-a----     23/09/2025  06:09 p. m.          99610 tile_1.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\tiles\node1\cf_5\l_1\c_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  06:09 p. m.         133879 tile_0.jpg                                   
+-a----     23/09/2025  06:09 p. m.          81668 tile_1.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\tiles\node1\cf_5\l_2
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----     23/09/2025  05:18 p. m.                c_0                                          
+d-----     23/09/2025  05:18 p. m.                c_1                                          
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\tiles\node1\cf_5\l_2\c_0
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  05:18 p. m.         185108 tile_0.jpg                                   
+-a----     23/09/2025  05:18 p. m.         166073 tile_1.jpg                                   
+
+
+    Directorio: D:\Users\rrojas\Documents\honda-360-extractor\backend\downloads\honda_city_2026
+    \ViewType.INTERIOR\tiles\node1\cf_5\l_2\c_1
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+-a----     23/09/2025  05:18 p. m.         174217 tile_0.jpg                                   
+-a----     23/09/2025  05:18 p. m.          84918 tile_1.jpg                                   
+
+

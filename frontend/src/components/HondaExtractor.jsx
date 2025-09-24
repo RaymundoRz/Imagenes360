@@ -129,9 +129,19 @@ const HondaExtractor = () => {
     setIsDownloading(false);
   };
 
-  const openViewer = (viewerPath) => {
-    // Usar puerto 8080 que se inicia automáticamente
-    const viewerUrl = `http://127.0.0.1:8080/honda_city_2026/ViewType.INTERIOR/viewer.html`;
+  const openViewer = (viewerPath, completedDownload) => {
+    const year = completedDownload.year;
+    const viewType = completedDownload.view_type.toUpperCase();
+    
+    // URL dinámica correcta basada en ViewType
+    const viewerUrl = `http://127.0.0.1:8080/honda_city_${year}/ViewType.${viewType}/viewer.html`;
+    
+    console.log(`🎯 Abriendo viewer: ${completedDownload.name}`, {
+      url: viewerUrl,
+      viewType,
+      quality: completedDownload.quality_level
+    });
+    
     window.open(viewerUrl, '_blank');
   };
 
@@ -378,7 +388,7 @@ const HondaExtractor = () => {
               {Object.entries(completedDownloads).map(([taskId, download]) => (
                 <div key={taskId} className="group bg-gradient-to-br from-green-50 to-emerald-100 border-2 border-green-200 rounded-2xl p-6 hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
                   <div className="flex items-center gap-3 mb-4">
-                    <span className="text-3xl">{download.viewType === 'interior' ? '🏠' : '🚗'}</span>
+                    <span className="text-3xl">{download.view_type === 'interior' ? '🏠' : '🚗'}</span>
                     <div>
                       <h4 className="font-bold text-lg text-gray-800">{download.name}</h4>
                       <p className="text-green-700">Honda City {download.year}</p>
@@ -386,7 +396,7 @@ const HondaExtractor = () => {
                   </div>
                   
                   <button
-                    onClick={() => openViewer(download.viewerPath)}
+                    onClick={() => openViewer(download.viewerPath, download)}
                     className="w-full bg-gradient-to-r from-green-600 to-emerald-700 hover:from-green-700 hover:to-emerald-800 text-white py-4 px-6 rounded-xl font-bold text-lg transition-all duration-300 flex items-center justify-center gap-3 shadow-lg group-hover:shadow-xl"
                   >
                     <Play className="w-5 h-5" />

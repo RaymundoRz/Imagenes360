@@ -1,0 +1,78 @@
+{
+  "timestamp": "2025-09-23T23:26:49.756243",
+  "system_info": {
+    "platform": "Windows-10-10.0.22000-SP0",
+    "python_version": "3.8.9 (tags/v3.8.9:a743f81, Apr  6 2021, 14:02:34) [MSC v.1928 64 bit (AMD64)]",
+    "current_directory": "D:\\Users\\rrojas\\Documents\\honda-360-extractor"
+  },
+  "project_structure": {},
+  "backend_analysis": {
+    "exists": true,
+    "honda_router": {
+      "exists": true,
+      "lines": 469,
+      "has_extract_function": false,
+      "has_viewer_route": true,
+      "has_quality_levels": true
+    },
+    "downloads_structure": {
+      "honda_city_2024": {
+        "type": "directory",
+        "contents": {
+          "ViewType.INTERIOR": {
+            "type": "viewtype_directory",
+            "has_viewer": true
+          }
+        }
+      },
+      "honda_city_2026": {
+        "type": "directory",
+        "contents": {
+          "ViewType.EXTERIOR": {
+            "type": "viewtype_directory",
+            "has_viewer": true
+          },
+          "ViewType.INTERIOR": {
+            "type": "viewtype_directory",
+            "has_viewer": true
+          }
+        }
+      }
+    }
+  },
+  "frontend_analysis": {
+    "exists": true,
+    "honda_extractor": {
+      "exists": true,
+      "lines": 416,
+      "has_openviewer": true,
+      "has_completed_downloads": true,
+      "hardcoded_interior": false,
+      "dynamic_viewtype": false,
+      "current_openviewer_code": "const openViewer = (viewerPath, completedDownload) => {\nconst year = completedDownload.year;\nconst viewType = completedDownload.view_type.toUpperCase();\n\n// URL dinámica correcta basada en ViewType\nconst viewerUrl = `http://127.0.0.1:8080/honda_city_${year}/ViewType.${viewType}/viewer.html`;\n\nconsole.log(`🎯 Abriendo viewer: ${completedDownload.name}`, {\nurl: viewerUrl,\nviewType,\nquality: completedDownload.quality_level\n});\n\nwindow.open(viewerUrl, '_blank');\n};"
+    },
+    "api_service": {
+      "exists": true,
+      "lines": 128,
+      "has_generate_viewer": true,
+      "has_extract_images": true,
+      "base_url": "const API_BASE = 'http://127.0.0.1:8000/api/honda';"
+    }
+  },
+  "network_analysis": {
+    "port_5173": false,
+    "port_8000": true,
+    "port_8080": true
+  },
+  "problems_identified": [
+    "❌ PROBLEMA: Puerto 5173 no activo (frontend React)"
+  ],
+  "recommended_fixes": [
+    "✅ FIX: Iniciar frontend con npm run dev"
+  ],
+  "summary": {
+    "total_problems": 1,
+    "total_fixes": 1,
+    "system_health": "WARNING"
+  }
+}
