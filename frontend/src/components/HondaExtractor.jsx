@@ -131,12 +131,12 @@ const HondaExtractor = () => {
 
   const openViewer = (viewerPath, completedDownload) => {
     const year = completedDownload.year;
-    const viewType = completedDownload.view_type.toUpperCase();
+    const viewType = completedDownload.view_type.toLowerCase();
     
-    // URL dinámica correcta basada en ViewType
-    const viewerUrl = `http://127.0.0.1:8080/honda_city_${year}/ViewType.${viewType}/viewer.html`;
+    // URL CORREGIDA: Usar el viewer 360° nativo del backend
+    const viewerUrl = `http://127.0.0.1:8000/api/honda/honda_city_2026/ViewType/${viewType}/viewer.html`;
     
-    console.log(`🎯 Abriendo viewer: ${completedDownload.name}`, {
+    console.log(`Abriendo viewer: ${completedDownload.name}`, {
       url: viewerUrl,
       viewType,
       quality: completedDownload.quality_level
