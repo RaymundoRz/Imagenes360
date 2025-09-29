@@ -1,0 +1,116 @@
+{
+  "timestamp": "2025-09-23T23:40:58.796615",
+  "quality_analysis": {
+    "honda_city_2024": {
+      "ViewType.INTERIOR": {
+        "config_xml_analysis": {
+          "exists": true,
+          "cube_urls": [],
+          "quality_levels": [],
+          "problems": []
+        },
+        "image_directories": {
+          "tiles": {
+            "image_count": 54,
+            "avg_file_size": 130386,
+            "size_category": "ULTRA_HD",
+            "sample_sizes": [
+              129199,
+              183419,
+              61262,
+              133530,
+              144522
+            ]
+          }
+        },
+        "quality_problems": [],
+        "recommendations": []
+      }
+    },
+    "honda_city_2026": {
+      "ViewType.EXTERIOR": {
+        "config_xml_analysis": {
+          "exists": true,
+          "cube_urls": [],
+          "quality_levels": [],
+          "problems": []
+        },
+        "image_directories": {
+          "exterior_level_2": {
+            "image_count": 64,
+            "avg_file_size": 14656,
+            "size_category": "HIGH_DEFINITION",
+            "sample_sizes": [
+              19702,
+              4682,
+              21212,
+              4682,
+              23005
+            ]
+          },
+          "tiles": {
+            "image_count": 128,
+            "avg_file_size": 16784,
+            "size_category": "HIGH_DEFINITION",
+            "sample_sizes": [
+              19702,
+              4682,
+              25711,
+              8342,
+              25485
+            ]
+          }
+        },
+        "quality_problems": [],
+        "recommendations": []
+      },
+      "ViewType.INTERIOR": {
+        "config_xml_analysis": {
+          "exists": true,
+          "cube_urls": [],
+          "quality_levels": [],
+          "problems": []
+        },
+        "image_directories": {
+          "interior_level_2": {
+            "image_count": 24,
+            "avg_file_size": 111706,
+            "size_category": "ULTRA_HD",
+            "sample_sizes": [
+              118742,
+              129853,
+              95915,
+              90148,
+              123872
+            ]
+          },
+          "tiles": {
+            "image_count": 48,
+            "avg_file_size": 125048,
+            "size_category": "ULTRA_HD",
+            "sample_sizes": [
+              123930,
+              161666,
+              111236,
+              109669,
+              118742
+            ]
+          }
+        },
+        "quality_problems": [],
+        "recommendations": []
+      }
+    }
+  },
+  "config_problems": [],
+  "image_analysis": {},
+  "recommendations": [],
+  "auto_fixes_applied": [],
+  "summary": {
+    "total_honda_models": 2,
+    "total_problems": 0,
+    "total_recommendations": 0,
+    "total_fixes_applied": 0,
+    "scan_complete": true
+  }
+}

@@ -19,15 +19,16 @@ export const hondaApi = {
     });
   },
   
-  // Extraer imágenes (esta ruta SÍ existe en tu backend)
+  // Extraer imágenes (ENDPOINT ORIGINAL SIMPLE)
   extractImages: async (data) => {
+    console.log('🎯 Extrayendo imágenes con:', data);
+    
     try {
-      console.log('Llamando extractImages with:', data);
       const response = await axios.post(`${API_BASE}/extract`, data);
-      console.log('extractImages response:', response.data);
+      console.log('✅ Extracción exitosa:', response.data);
       return response;
     } catch (error) {
-      console.error('Error en extractImages:', error.response?.data || error.message);
+      console.error('❌ Error en extracción:', error.response?.data || error.message);
       throw error;
     }
   },

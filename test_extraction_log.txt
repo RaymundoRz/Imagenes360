@@ -1,0 +1,5 @@
+[14:16:03.833] [INFO] === VERIFICANDO SERVICIOS ===
+[14:16:18.839] [ERROR] ❌ Backend (8000): ERROR - HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=15)
+[14:16:18.844] [INFO] ✅ Frontend (5174): OK
+[14:16:18.847] [INFO] ✅ File Server (8080): OK
+[14:16:18.848] [ERROR] ❌ Servicios no disponibles. Abortando test.

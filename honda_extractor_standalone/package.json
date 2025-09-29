@@ -1,0 +1,25 @@
+{
+  "name": "honda-360-extractor",
+  "version": "1.0.0",
+  "description": "Extractor Honda 360° automático basado en zoom continuo",
+  "main": "honda_360_extractor.js",
+  "scripts": {
+    "start": "node honda_360_extractor.js",
+    "install-deps": "npm install",
+    "test": "node honda_360_extractor.js"
+  },
+  "dependencies": {
+    "puppeteer": "^24.22.3"
+  },
+  "keywords": [
+    "honda",
+    "360",
+    "extractor",
+    "puppeteer",
+    "automation",
+    "zoom",
+    "level2"
+  ],
+  "author": "Honda 360° Extractor Team",
+  "license": "MIT"
+}
