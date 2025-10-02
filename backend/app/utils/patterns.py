@@ -117,3 +117,119 @@ def calculate_tiles_per_level(resolution: dict, tile_size: int) -> tuple:
     tiles_x = math.ceil(resolution["width"] / tile_size)
     tiles_y = math.ceil(resolution["height"] / tile_size)
     return tiles_x, tiles_y
+
+# ====================================================================================
+# EXTENSIÓN MULTI-MODELO - AGREGADO AL FINAL DEL ARCHIVO
+# NO TOCA FUNCIONES EXISTENTES - SOLO AGREGA NUEVAS
+# ====================================================================================
+
+# Mapeo completo de todos los modelos Honda - SOLO MODELOS REALES CONFIRMADOS
+HONDA_ALL_MODELS_PATTERNS = {
+    "city": {
+        "name": "Honda City",
+        "years": ["2024", "2026"],  # CONFIRMADO FUNCIONANDO
+        "status": "confirmed",
+        "exterior_config": "/web/img/cars/models/city/{year}/city_{year}_ext_360/honda_city_{year}_ext_out.xml",
+        "interior_config": "/web/img/cars/models/city/{year}/city_{year}_int_360/pano.xml",
+        "exterior_images_base": "/web/img/cars/models/city/{year}/city_{year}_ext_360/",
+        "interior_images_base": "/web/img/cars/models/city/{year}/city_{year}_int_360/",
+    },
+    "cr-v": {
+        "name": "Honda CR-V",
+        "years": ["2024"],  # CONFIRMADO POR SELENIUM - 3/4 ASSETS
+        "status": "confirmed",
+        "exterior_config": "/web/img/cars/models/cr-v/{year}/cr-v_{year}_ext_360/honda_crv_{year}_ext_out.xml",
+        "interior_config": "/web/img/cars/models/cr-v/{year}/cr-v_{year}_int_360/pano.xml",
+        "exterior_images_base": "/web/img/cars/models/cr-v/{year}/cr-v_{year}_ext_360/",
+        "interior_images_base": "/web/img/cars/models/cr-v/{year}/cr-v_{year}_int_360/",
+    }
+    # NOTA: Después de investigación exhaustiva del 29/sep/2025
+    # Honda City (2024,2026) y Honda CR-V (2024) tienen assets 360° funcionales
+    # CR-V confirmado por Selenium con 3/4 assets obtenidos
+}
+
+def get_honda_universal_config_url(model: str, year: str, view_type: str) -> str:
+    """
+    Generar URL de configuración Honda para CUALQUIER modelo
+    Mantiene compatibilidad total con get_honda_config_url()
+    """
+    base = HONDA_CITY_PATTERNS["base_url"]
+    
+    # Si es city, usa función original para mantener compatibilidad
+    if model.lower() == "city":
+        return get_honda_config_url(year, view_type)
+    
+    # Para otros modelos, usar el nuevo mapeo
+    if model.lower() not in HONDA_ALL_MODELS_PATTERNS:
+        raise ValueError(f"Modelo no soportado: {model}")
+    
+    model_config = HONDA_ALL_MODELS_PATTERNS[model.lower()]
+    
+    if view_type == "exterior":
+        config_path = model_config["exterior_config"].format(year=year)
+    elif view_type == "interior":
+        config_path = model_config["interior_config"].format(year=year) 
+    else:
+        raise ValueError(f"view_type debe ser 'exterior' o 'interior', recibido: {view_type}")
+    
+    return base + config_path
+
+def get_honda_universal_images_base_url(model: str, year: str, view_type: str) -> str:
+    """
+    Generar URL base de imágenes Honda para CUALQUIER modelo
+    Mantiene compatibilidad total con get_honda_images_base_url()
+    """
+    base = HONDA_CITY_PATTERNS["base_url"]
+    
+    # Si es city, usa función original para mantener compatibilidad  
+    if model.lower() == "city":
+        return get_honda_images_base_url(year, view_type)
+    
+    # Para otros modelos, usar el nuevo mapeo
+    if model.lower() not in HONDA_ALL_MODELS_PATTERNS:
+        raise ValueError(f"Modelo no soportado: {model}")
+    
+    model_config = HONDA_ALL_MODELS_PATTERNS[model.lower()]
+    
+    if view_type == "exterior":
+        images_path = model_config["exterior_images_base"].format(year=year)
+    elif view_type == "interior":
+        images_path = model_config["interior_images_base"].format(year=year)
+    else:
+        raise ValueError(f"view_type debe ser 'exterior' o 'interior', recibido: {view_type}")
+    
+    return base + images_path
+
+def get_all_honda_models() -> dict:
+    """
+    Devolver lista completa de modelos Honda disponibles
+    """
+    return HONDA_ALL_MODELS_PATTERNS
+
+# === FASE 1: MODELOS CONFIRMADOS HONDA 360° ===
+# Basado en verificación real del 29 septiembre 2025
+
+HONDA_CONFIRMED_MODELS = {
+    "City": {
+        "name": "Honda City",
+        "pattern": "city/{year}/city_{year}_ext_360",
+        "years": ["2024", "2026"],
+        "status": "confirmed"
+    },
+    "CR-V": {
+        "name": "Honda CR-V",
+        "pattern": "cr-v/CR-V_{year}_ext_360",
+        "years": ["2024"],
+        "status": "confirmed"
+    },
+}
+
+def get_confirmed_models():
+    """Obtener solo modelos 100% confirmados"""
+    return [
+        {
+            "name": model_data["name"].replace("Honda ", ""),
+            "years": model_data["years"]
+        }
+        for model_data in HONDA_CONFIRMED_MODELS.values()
+    ]

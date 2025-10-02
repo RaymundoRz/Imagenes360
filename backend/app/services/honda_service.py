@@ -8,8 +8,10 @@ from typing import List, Dict, Optional, Tuple
 from datetime import datetime
 
 from app.utils.patterns import (
-    get_honda_config_url, 
-    get_honda_images_base_url,
+    get_honda_config_url,  # Mantener para compatibilidad
+    get_honda_images_base_url,  # Mantener para compatibilidad
+    get_honda_universal_config_url,  # AGREGAR
+    get_honda_universal_images_base_url,  # AGREGAR
     TILE_PATTERNS,
     RESOLUTIONS, 
     calculate_tiles_per_level
@@ -291,4 +293,68 @@ class HondaCityExtractor:
         print(f"   ⏱️ Tiempo: {stats.download_time_seconds}s")
         print(f"   🚀 Velocidad: {stats.average_speed_mbps} MB/s")
         
+        return stats
+    
+    async def extract_honda_model(self, model: str, year: str, view_type: str, 
+                              quality_level: int = 0, download_path: Optional[str] = None) -> TileExtractionStats:
+        """
+        Método universal para extraer CUALQUIER modelo Honda
+        Usa las nuevas funciones universales de patterns.py
+        """
+        # Si es City, usar el método específico existente para mantener compatibilidad
+        if model.lower() == "city":
+            return await self.extract_honda_city(year, view_type, quality_level, download_path)
+        
+        # Para otros modelos, usar lógica universal
+        # 1. Crear directorio de descarga
+        if download_path:
+            download_dir = Path(download_path)
+        else:
+            download_dir = Path("downloads") / f"honda_{model}_{year}" / f"ViewType.{view_type.upper()}"
+        
+        download_dir.mkdir(parents=True, exist_ok=True)
+        
+        # 2. Obtener configuración usando función universal
+        print(f"Obteniendo configuración Honda {model} {year} {view_type}...")
+        config_url = get_honda_universal_config_url(model, year, view_type)
+        
+        async with self.session.get(config_url) as response:
+            if response.status != 200:
+                raise Exception(f"Error descargando config {config_url}: {response.status}")
+            content = await response.text()
+        
+        # Crear ConfigInfo básico
+        if 'object2vr' in content.lower():
+            config = ConfigInfo(content=content, technology="object2vr", columns=32)
+        else:
+            config = ConfigInfo(content=content, technology="pano2vr", columns=6)
+        
+        # 3. Generar URLs usando función universal
+        base_url = get_honda_universal_images_base_url(model, year, view_type)
+        tiles = []
+        
+        # Usar misma lógica de generación que extract_honda_city
+        if config.technology == "object2vr":
+            pattern = TILE_PATTERNS["object2vr"]
+            resolutions = RESOLUTIONS.get(year, RESOLUTIONS["2024"])["exterior"]
+            resolution = resolutions[quality_level]
+            tiles_x, tiles_y = calculate_tiles_per_level(resolution, pattern["tile_size"])
+            
+            for column in range(config.columns):
+                for y in range(tiles_y):
+                    for x in range(tiles_x):
+                        tile_path = pattern["pattern"].format(column=column, level=quality_level, y=y, x=x)
+                        tile_url = base_url + tile_path
+                        tiles.append(TileInfo(url=tile_url, level=quality_level, column=column, x=x, y=y))
+        
+        # 4. Descargar tiles
+        print(f"Iniciando descarga paralela de {len(tiles)} tiles...")
+        stats = await self.download_tiles_parallel(tiles, download_dir)
+        
+        # 5. Guardar configuración
+        config_file = download_dir / "config.xml"
+        with open(config_file, 'w', encoding='utf-8') as f:
+            f.write(content)
+        
+        print(f"Extracción {model} {year} completada!")
         return stats

@@ -13,6 +13,7 @@ import json
 import requests
 from concurrent.futures import ThreadPoolExecutor
 from app.services.honda_selenium_extractor import extract_honda_assets_with_selenium
+from app.utils.patterns import get_all_honda_models, get_confirmed_models  # AGREGAR
 
 router = APIRouter()
 
@@ -150,18 +151,15 @@ async def perform_extraction(extraction_id: str, year: str, view_type: str, qual
         # CREAR ESTRUCTURA DE CARPETAS COMPLETA
         base_path = Path(f"downloads/honda_city_{year}")
         
-        # Estructura Honda Original (copia exacta)
+        # Estructura Honda Original (solo crear cuando se necesite)
         honda_original_base = base_path / "honda_original" / f"ViewType.{view_type.upper()}"
         honda_original_base.mkdir(parents=True, exist_ok=True)
-        (honda_original_base / "assets").mkdir(exist_ok=True)
-        (honda_original_base / "tiles").mkdir(exist_ok=True)
-        (honda_original_base / "exterior_level_2").mkdir(exist_ok=True)
+        # Las subcarpetas se crearán automáticamente cuando se guarden archivos
         
-        # Estructura Sistema (optimizada para tu uso)
+        # Estructura Sistema (solo crear cuando se necesite)
         system_base = base_path / f"ViewType.{view_type.upper()}"
         system_base.mkdir(parents=True, exist_ok=True)
-        (system_base / "assets").mkdir(exist_ok=True)
-        (system_base / "images").mkdir(exist_ok=True)
+        # Las subcarpetas se crearán automáticamente cuando se guarden archivos
         
         # HEADERS OPTIMIZADOS
         headers = {
@@ -1017,3 +1015,117 @@ async def get_viewer_assets(extraction_id: str, path: str):
         
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+@router.get("/models")
+async def get_honda_models():
+    """
+    NUEVO ENDPOINT: Obtener lista de todos los modelos Honda disponibles
+    Para uso del frontend en selector de modelos
+    """
+    try:
+        # FASE 1: Usar solo modelos confirmados
+        confirmed_models = get_confirmed_models()
+        models_list = []
+        
+        for model_info in confirmed_models:
+            models_list.append({
+                "model": model_info["name"].lower(),
+                "name": f"Honda {model_info['name']}",
+                "years": model_info["years"],
+                "status": "confirmed"
+            })
+        
+        return {
+            "models": models_list,
+            "total_models": len(models_list)
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@router.post("/extract/model")
+async def start_model_extraction(request: dict, background_tasks: BackgroundTasks):
+    """
+    NUEVO ENDPOINT: Extraer CUALQUIER modelo Honda (no solo City)
+    Compatible con el endpoint /extract original
+    """
+    try:
+        # Validar parámetros
+        model = request.get("model", "city")  # Por defecto City para compatibilidad
+        year = request.get("year", "2026")
+        view_type = request.get("view_type", "interior")
+        
+        # Si es City, usar el sistema original (compatibilidad)
+        if model.lower() == "city":
+            return await start_extraction(request, background_tasks)
+        
+        # Para otros modelos, crear extracción con nuevo sistema
+        extraction_id = str(uuid.uuid4())
+        
+        response = {
+            "extraction_id": extraction_id,
+            "status": "pending",
+            "model": model,
+            "year": year,
+            "view_type": view_type,
+            "total_tiles": 0,
+            "downloaded_tiles": 0,
+            "failed_tiles": 0,
+            "progress_percentage": 0.0,
+            "estimated_time_remaining": None,
+            "created_at": datetime.now().isoformat(),
+            "completed_at": None,
+            "error_message": None
+        }
+        
+        # Guardar en storage
+        active_extractions[extraction_id] = response
+        
+        # Iniciar extracción para nuevo modelo en background
+        background_tasks.add_task(
+            perform_universal_extraction,  # Nueva función
+            extraction_id,
+            model,
+            year,
+            view_type,
+            request.get("quality_level", 0),
+            request.get("download_path")
+        )
+        
+        return response
+        
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+async def perform_universal_extraction(extraction_id: str, model: str, year: str, view_type: str, quality_level: int, download_path: Optional[str]):
+    """
+    NUEVA FUNCIÓN: Extracción para cualquier modelo Honda (no solo City)
+    Usa el nuevo honda_service.py con extract_honda_model()
+    """
+    try:
+        print(f"[UNIVERSAL] Iniciando extracción {model} {year} {view_type}")
+        active_extractions[extraction_id]["status"] = "in_progress"
+        
+        # Usar el servicio actualizado con método universal
+        from app.services.honda_service import HondaCityExtractor
+        
+        async with HondaCityExtractor() as extractor:
+            # Usar el nuevo método extract_honda_model que agregaste
+            stats = await extractor.extract_honda_model(model, year, view_type, quality_level, download_path)
+            
+            # Actualizar estado final
+            extraction = active_extractions[extraction_id]
+            extraction["status"] = "completed"
+            extraction["total_tiles"] = stats.total_tiles
+            extraction["downloaded_tiles"] = stats.downloaded_tiles
+            extraction["failed_tiles"] = stats.failed_tiles
+            extraction["progress_percentage"] = 100.0
+            extraction["completed_at"] = datetime.now().isoformat()
+            
+            print(f"[UNIVERSAL] Completado {model}: {stats.downloaded_tiles} tiles")
+            
+    except Exception as e:
+        print(f"[UNIVERSAL] Error: {e}")
+        extraction = active_extractions[extraction_id]
+        extraction["status"] = "failed"
+        extraction["error_message"] = str(e)
+        extraction["completed_at"] = datetime.now().isoformat()

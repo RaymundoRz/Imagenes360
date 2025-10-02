@@ -15,6 +15,37 @@ const HondaExtractor = () => {
   const [downloadStatus, setDownloadStatus] = useState({});
   const [isDownloading, setIsDownloading] = useState(false);
   const [completedDownloads, setCompletedDownloads] = useState({});
+  
+  // NUEVOS ESTADOS PARA MULTI-MODELO
+  const [selectedModel, setSelectedModel] = useState('city');  // Default City
+  const [availableModels, setAvailableModels] = useState([]);  // Lista de modelos
+
+  useEffect(() => {
+    // Cargar lista de modelos al inicio
+    const loadModels = async () => {
+        try {
+            const response = await fetch('http://localhost:8000/api/honda/models');
+            if (response.ok) {
+                const data = await response.json();
+                setAvailableModels(data.models);
+            } else {
+                console.warn('Error cargando modelos, usando City por defecto');
+            }
+        } catch (error) {
+            console.warn('Error cargando modelos:', error);
+        }
+    };
+    
+    loadModels();
+  }, []); // Solo al montar el componente
+
+  // NUEVO useEffect para resetear año al cambiar modelo
+  useEffect(() => {
+    const selectedModelData = availableModels.find(model => model.model === selectedModel);
+    if (selectedModel && selectedModelData?.years?.length > 0) {
+      setSelectedYear(selectedModelData.years[0]); // Primer año disponible
+    }
+  }, [selectedModel, availableModels]);
 
   // Información de calidades con estilo Honda
   const qualityInfo = {
@@ -88,12 +119,24 @@ const HondaExtractor = () => {
           quality_level: task.quality_level
         }); // Debug
 
-        // 1. Extraer imágenes CON DATOS CORRECTOS
-        const extractResponse = await hondaApi.extractImages({
-          year: task.year,
-          view_type: task.view_type,
-          quality_level: task.quality_level
+        // Usar endpoint correcto según el modelo
+        const endpoint = selectedModel === 'city' 
+          ? 'http://localhost:8000/api/honda/extract'        // Tu endpoint original
+          : 'http://localhost:8000/api/honda/extract/model'; // Nuevo endpoint
+          
+        const response = await fetch(endpoint, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            model: selectedModel,  // AGREGAR modelo
+            year: task.year,
+            view_type: task.view_type,
+            quality_level: task.quality_level
+          })
         });
+        
+        // 1. Extraer imágenes CON DATOS CORRECTOS
+        const extractResponse = { data: await response.json() };
 
         console.log("Respuesta extracción:", extractResponse.data); // Debug
 
@@ -181,38 +224,71 @@ const HondaExtractor = () => {
 
       <div className="max-w-7xl mx-auto px-6 py-12 space-y-12">
         
+        {/* NUEVO SELECTOR DE MODELOS */}
+        <div className="bg-white rounded-3xl shadow-xl p-8 border border-gray-200">
+          <h3 className="text-lg font-semibold text-gray-800 mb-3">Seleccionar Modelo Honda</h3>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+            {availableModels.map((model) => (
+              <button
+                key={model.model}
+                onClick={() => setSelectedModel(model.model)}
+                className={`p-3 rounded-lg border text-center transition-all ${
+                  selectedModel === model.model
+                    ? 'bg-red-600 text-white border-red-600'
+                    : 'bg-white text-gray-700 border-gray-300 hover:border-red-400'
+                }`}
+              >
+                <div className="font-medium">{model.name}</div>
+                <div className="text-xs mt-1 opacity-75">
+                  {model.years.join(', ')}
+                </div>
+              </button>
+            ))}
+          </div>
+        </div>
+
         {/* Selector de Modelo */}
         <div className="bg-white rounded-3xl shadow-xl p-8 border border-gray-200">
           <h2 className="text-3xl font-bold text-gray-800 mb-6 flex items-center gap-3">
             <Car className="w-8 h-8 text-red-600" />
-            Seleccionar Modelo Honda City
+            Seleccionar Modelo Honda {availableModels.find(m => m.model === selectedModel)?.name || selectedModel}
           </h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {['2024', '2026'].map(year => (
-              <button
-                key={year}
-                onClick={() => setSelectedYear(year)}
-                className={`group relative overflow-hidden rounded-2xl p-8 transition-all duration-300 transform hover:scale-105 ${
-                  selectedYear === year
-                    ? 'bg-gradient-to-r from-red-600 to-red-700 text-white shadow-2xl'
-                    : 'bg-gray-50 text-gray-700 hover:bg-gray-100 border-2 border-gray-200'
-                }`}
-              >
-                <div className="relative z-10">
-                  <div className="text-3xl font-bold mb-2">Honda City {year}</div>
-                  <div className="text-lg opacity-90">
-                    {year === '2026' ? 'Última generación' : 'Modelo clásico'}
-                  </div>
-                  {selectedYear === year && (
-                    <div className="absolute top-4 right-4">
-                      <CheckCircle className="w-8 h-8" />
+            {(() => {
+              const selectedModelData = availableModels.find(model => model.model === selectedModel);
+              return selectedModelData?.years?.map(year => (
+                <button
+                  key={year}
+                  onClick={() => setSelectedYear(year)}
+                  className={`group relative overflow-hidden rounded-2xl p-8 transition-all duration-300 transform hover:scale-105 ${
+                    selectedYear === year
+                      ? 'bg-gradient-to-r from-red-600 to-red-700 text-white shadow-2xl'
+                      : 'bg-gray-50 text-gray-700 hover:bg-gray-100 border-2 border-gray-200'
+                  }`}
+                >
+                  <div className="relative z-10">
+                    <div className="text-3xl font-bold mb-2">
+                      Honda {selectedModelData.name.replace('Honda ', '')} {year}
                     </div>
-                  )}
+                    <div className="text-lg opacity-90">
+                      {year === '2026' ? 'Última generación' : 'Modelo clásico'}
+                    </div>
+                    {selectedYear === year && (
+                      <div className="absolute top-4 right-4">
+                        <CheckCircle className="w-8 h-8" />
+                      </div>
+                    )}
+                  </div>
+                  <div className="absolute inset-0 bg-gradient-to-r from-transparent to-white opacity-10"></div>
+                </button>
+              )) || (
+                // FALLBACK SI NO HAY DATOS
+                <div className="col-span-2 text-center text-gray-500 py-8">
+                  Cargando años disponibles para {selectedModel}...
                 </div>
-                <div className="absolute inset-0 bg-gradient-to-r from-transparent to-white opacity-10"></div>
-              </button>
-            ))}
+              );
+            })()}
           </div>
         </div>
 

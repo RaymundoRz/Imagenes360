@@ -1,0 +1,297 @@
+{
+  "metadata": {
+    "created_at": "2025-10-02T12:56:00",
+    "last_updated": "2025-10-02T12:56:00",
+    "version": "1.0.0",
+    "total_models": 11,
+    "verified_by": "Manual Testing",
+    "description": "Base de conocimientos Honda 360° - COMPLETA"
+  },
+  "models": {
+    "cr-v-hibrido": {
+      "display_name": "CR-V Híbrido",
+      "slug": "cr-v-hibrido",
+      "folder_slug": "crv-hibrido",
+      "verified_years": {
+        "2026": {
+          "exterior": {
+            "viewer_url": "https://www.honda.mx/autos/cr-v-hibrido/2026/CR-V_Hibrido_2026_ext_360",
+            "tiles_base": "https://www.honda.mx/web/img/cars/models/crv-hibrido/2026/360/CR-V_Hibrido_2026_ext_360/tiles/",
+            "folder_name": "CR-V_Hibrido_2026_ext_360",
+            "naming_pattern": "PascalCase_with_underscores",
+            "has_360_subfolder": true,
+            "verified_date": "2025-10-02",
+            "status": "verified"
+          }
+        }
+      },
+      "pattern_rules": {
+        "naming": "CR-V_Hibrido_{year}_ext_360",
+        "path_structure": "/web/img/cars/models/crv-hibrido/{year}/360/{folder_name}/tiles/",
+        "confidence": "high"
+      }
+    },
+    "accord-hibrido": {
+      "display_name": "Accord Híbrido",
+      "slug": "accord-hibrido",
+      "folder_slug": "accord-hibrido",
+      "verified_years": {
+        "2024": {
+          "exterior": {
+            "viewer_url": "https://www.honda.mx/autos/accord-hibrido/Accord_Hibrido_2024_ext_360",
+            "tiles_base": "https://www.honda.mx/web/img/cars/models/accord-hibrido/2024/Accord_Hibrido_2024_ext_360/tiles/",
+            "folder_name": "Accord_Hibrido_2024_ext_360",
+            "naming_pattern": "PascalCase_with_underscores",
+            "has_360_subfolder": false,
+            "url_without_year_path": true,
+            "verified_date": "2025-10-02",
+            "status": "verified"
+          }
+        }
+      },
+      "pattern_rules": {
+        "naming": "Accord_Hibrido_{year}_ext_360",
+        "path_structure": "/web/img/cars/models/accord-hibrido/{year}/{folder_name}/tiles/",
+        "confidence": "high",
+        "special_notes": "URL viewer no incluye año en path"
+      }
+    },
+    "civic-hibrido": {
+      "display_name": "Civic Híbrido",
+      "slug": "civic-hibrido",
+      "folder_slug": "civic-hibrido",
+      "verified_years": {
+        "2026": {
+          "exterior": {
+            "viewer_url": "https://www.honda.mx/autos/civic-hibrido/2026/Civic_Hibrido_2026_ext_360",
+            "tiles_base": "https://www.honda.mx/web/img/cars/models/civic-hibrido/2026/Civic_Hibrido_2026_ext_360/tiles/",
+            "folder_name": "Civic_Hibrido_2026_ext_360",
+            "naming_pattern": "PascalCase_with_underscores",
+            "has_360_subfolder": false,
+            "verified_date": "2025-10-02",
+            "status": "verified"
+          }
+        }
+      },
+      "pattern_rules": {
+        "naming": "Civic_Hibrido_{year}_ext_360",
+        "path_structure": "/web/img/cars/models/civic-hibrido/{year}/{folder_name}/tiles/",
+        "confidence": "high"
+      }
+    },
+    "city": {
+      "display_name": "City",
+      "slug": "city",
+      "folder_slug": "city",
+      "verified_years": {
+        "2026": {
+          "exterior": {
+            "viewer_url": "https://www.honda.mx/autos/city/2026/city_2026_ext_360",
+            "tiles_base": "https://www.honda.mx/web/img/cars/models/city/2026/city_2026_ext_360/tiles/",
+            "folder_name": "city_2026_ext_360",
+            "naming_pattern": "lowercase_with_underscores",
+            "has_360_subfolder": false,
+            "verified_date": "2025-10-02",
+            "status": "verified"
+          }
+        }
+      },
+      "pattern_rules": {
+        "naming": "city_{year}_ext_360",
+        "path_structure": "/web/img/cars/models/city/{year}/{folder_name}/tiles/",
+        "confidence": "high"
+      }
+    },
+    "accord": {
+      "display_name": "Accord",
+      "slug": "accord",
+      "folder_slug": "accord",
+      "verified_years": {
+        "2023": {
+          "exterior": {
+            "viewer_url": "https://www.honda.mx/autos/accord/accord_2023_ext_360",
+            "tiles_base": "https://www.honda.mx/web/img/cars/models/accord/2023/accord_2023_ext_360/tiles/",
+            "folder_name": "accord_2023_ext_360",
+            "naming_pattern": "lowercase_with_underscores",
+            "has_360_subfolder": false,
+            "url_without_year_path": true,
+            "verified_date": "2025-10-02",
+            "status": "verified"
+          }
+        }
+      },
+      "pattern_rules": {
+        "naming": "accord_{year}_ext_360",
+        "path_structure": "/web/img/cars/models/accord/{year}/{folder_name}/tiles/",
+        "confidence": "high",
+        "special_notes": "URL viewer no incluye año en path"
+      }
+    },
+    "br-v": {
+      "display_name": "BR-V",
+      "slug": "br-v",
+      "folder_slug": "brv",
+      "verified_years": {
+        "2024": {
+          "exterior": {
+            "viewer_url": "https://www.honda.mx/autos/br-v/BR-V_2024_ext_360",
+            "tiles_base": "https://www.honda.mx/web/img/cars/models/brv/2024/360/BR-V_2024_ext_360/tiles/",
+            "folder_name": "BR-V_2024_ext_360",
+            "naming_pattern": "UPPERCASE_with_hyphens",
+            "has_360_subfolder": true,
+            "verified_date": "2025-10-02",
+            "status": "verified"
+          }
+        }
+      },
+      "pattern_rules": {
+        "naming": "BR-V_{year}_ext_360",
+        "path_structure": "/web/img/cars/models/brv/{year}/360/{folder_name}/tiles/",
+        "confidence": "high",
+        "special_notes": "Slug es 'brv' pero folder name es 'BR-V'"
+      }
+    },
+    "hr-v": {
+      "display_name": "HR-V",
+      "slug": "hr-v",
+      "folder_slug": "hrv",
+      "verified_years": {
+        "2026": {
+          "exterior": {
+            "viewer_url": "https://www.honda.mx/autos/hr-v/2026/hrv_2026_ext_360_exterior_360",
+            "tiles_base": "https://www.honda.mx/web/img/cars/models/hrv/2026/hrv_2026_ext_360_exterior_360/tiles/",
+            "folder_name": "hrv_2026_ext_360_exterior_360",
+            "naming_pattern": "lowercase_with_underscores",
+            "has_360_subfolder": false,
+            "verified_date": "2025-10-02",
+            "status": "verified"
+          }
+        }
+      },
+      "pattern_rules": {
+        "naming": "hrv_{year}_ext_360_exterior_360",
+        "path_structure": "/web/img/cars/models/hrv/{year}/{folder_name}/tiles/",
+        "confidence": "high",
+        "special_notes": "Tiene redundancia: ext_360_exterior_360"
+      }
+    },
+    "cr-v": {
+      "display_name": "CR-V",
+      "slug": "cr-v",
+      "folder_slug": "crv",
+      "verified_years": {
+        "2023": {
+          "exterior": {
+            "viewer_url": "https://www.honda.mx/autos/cr-v/CR-V_2023_ext_360",
+            "tiles_base": "https://www.honda.mx/web/img/cars/models/crv/2023/CR-V_2023_ext_360/tiles/",
+            "folder_name": "CR-V_2023_ext_360",
+            "naming_pattern": "UPPERCASE_with_hyphens",
+            "has_360_subfolder": false,
+            "verified_date": "2025-10-02",
+            "status": "verified"
+          }
+        }
+      },
+      "pattern_rules": {
+        "naming": "CR-V_{year}_ext_360",
+        "path_structure": "/web/img/cars/models/crv/{year}/{folder_name}/tiles/",
+        "confidence": "high",
+        "special_notes": "Slug es 'crv' pero folder name es 'CR-V'"
+      }
+    },
+    "pilot": {
+      "display_name": "Pilot",
+      "slug": "pilot",
+      "folder_slug": "pilot",
+      "verified_years": {
+        "2025": {
+          "exterior": {
+            "viewer_url": "https://www.honda.mx/autos/pilot/honda_pilot_black_2025_ext_360",
+            "tiles_base": "https://www.honda.mx/web/img/cars/models/pilot/2025/360/PILOT_BLACK_2025_ext_360/tiles/",
+            "folder_name": "PILOT_BLACK_2025_ext_360",
+            "naming_pattern": "UPPERCASE_with_underscores",
+            "has_360_subfolder": true,
+            "verified_date": "2025-10-02",
+            "status": "verified"
+          }
+        }
+      },
+      "pattern_rules": {
+        "naming": "honda_pilot_black_{year}_ext_360",
+        "folder_naming": "PILOT_BLACK_{year}_ext_360",
+        "path_structure": "/web/img/cars/models/pilot/{year}/360/{folder_name}/tiles/",
+        "confidence": "high",
+        "special_notes": "URL usa 'honda_pilot_black' pero folder es 'PILOT_BLACK'"
+      }
+    },
+    "odyssey": {
+      "display_name": "Odyssey",
+      "slug": "odyssey",
+      "folder_slug": "odyssey",
+      "verified_years": {
+        "2025": {
+          "exterior": {
+            "viewer_url": "https://www.honda.mx/autos/odyssey/2025/Odyssey_Black_2025_ext_360",
+            "tiles_base": "https://www.honda.mx/web/img/cars/models/odyssey/2025/exterior_360/tiles/",
+            "folder_name": "exterior_360",
+            "naming_pattern": "generic_folder",
+            "has_360_subfolder": false,
+            "verified_date": "2025-10-02",
+            "status": "verified"
+          }
+        }
+      },
+      "pattern_rules": {
+        "naming": "exterior_360",
+        "path_structure": "/web/img/cars/models/odyssey/{year}/exterior_360/tiles/",
+        "confidence": "medium",
+        "special_notes": "Usa nombre genérico 'exterior_360' en lugar de nombre específico"
+      }
+    },
+    "civic": {
+      "display_name": "Civic",
+      "slug": "civic",
+      "folder_slug": "civic",
+      "verified_years": {
+        "2025": {
+          "exterior": {
+            "viewer_url": "https://www.honda.mx/autos/civic/2025/exterior_360",
+            "tiles_base": "https://www.honda.mx/web/img/cars/models/civic/2025/exterior_360/tiles/",
+            "folder_name": "exterior_360",
+            "naming_pattern": "generic_folder",
+            "has_360_subfolder": false,
+            "verified_date": "2025-10-02",
+            "status": "verified"
+          }
+        }
+      },
+      "pattern_rules": {
+        "naming": "exterior_360",
+        "path_structure": "/web/img/cars/models/civic/{year}/exterior_360/tiles/",
+        "confidence": "medium",
+        "special_notes": "Usa nombre genérico 'exterior_360' desde 2025+"
+      }
+    }
+  },
+  "global_patterns": {
+    "naming_conventions": {
+      "PascalCase_with_underscores": ["cr-v-hibrido", "accord-hibrido", "civic-hibrido"],
+      "lowercase_with_underscores": ["city", "accord", "hr-v"],
+      "UPPERCASE_with_hyphens": ["br-v", "cr-v"],
+      "UPPERCASE_with_underscores": ["pilot"],
+      "generic_folder": ["odyssey", "civic"]
+    },
+    "special_cases": {
+      "has_360_subfolder": ["cr-v-hibrido", "br-v", "pilot"],
+      "url_without_year_path": ["accord-hibrido", "accord"],
+      "redundant_naming": ["hr-v"],
+      "generic_naming": ["odyssey", "civic"]
+    }
+  },
+  "learning_stats": {
+    "total_verified_urls": 11,
+    "success_rate": 100.0,
+    "last_learning_date": "2025-10-02T12:56:00",
+    "patterns_learned": 5
+  }
+}
